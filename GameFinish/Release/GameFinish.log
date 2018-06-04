@@ -1,0 +1,23 @@
+﻿graphics.lib(misc.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in Anima.obj
+graphics.lib(misc.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in Anima.obj
+graphics.lib(misc.obj) : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:ICF' specification
+graphics.lib(drawing.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in Anima.obj
+graphics.lib(drawing.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in Anima.obj
+graphics.lib(text.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in Anima.obj
+graphics.lib(text.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in Anima.obj
+graphics.lib(winbgi.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in Anima.obj
+graphics.lib(winbgi.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in Anima.obj
+graphics.lib(file.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in Anima.obj
+graphics.lib(file.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in Anima.obj
+graphics.lib(winthread.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in Anima.obj
+graphics.lib(winthread.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in Anima.obj
+LINK : warning LNK4098: defaultlib 'MSVCRTD' conflicts with use of other libs; use /NODEFAULTLIB:library
+graphics.lib(drawing.obj) : error LNK2001: unresolved external symbol __imp___invalid_parameter
+graphics.lib(text.obj) : error LNK2001: unresolved external symbol __imp___invalid_parameter
+graphics.lib(winbgi.obj) : error LNK2001: unresolved external symbol __imp___invalid_parameter
+graphics.lib(winthread.obj) : error LNK2001: unresolved external symbol __imp___invalid_parameter
+graphics.lib(drawing.obj) : error LNK2001: unresolved external symbol __imp___CrtDbgReportW
+graphics.lib(text.obj) : error LNK2001: unresolved external symbol __imp___CrtDbgReportW
+graphics.lib(winbgi.obj) : error LNK2001: unresolved external symbol __imp___CrtDbgReportW
+graphics.lib(winthread.obj) : error LNK2001: unresolved external symbol __imp___CrtDbgReportW
+E:\Download\GameFinish\GameFinish\Release\GameFinish.exe : fatal error LNK1120: 2 unresolved externals
